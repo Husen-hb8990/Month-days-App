@@ -1,17 +1,44 @@
-body{background-color:#dcdcdc;}
-button{height:75px;width:75px;margin:2px;margin-left:5px;margin-top:5px;background-color:#fff;}
-#main{border 1px solid:red;
+body{
+background-color:#dcdcdc;
+}
+button{
+height:75px;
+width:75px;
+margin:2px;
+margin-left:15px;
+margin-top:5px;
+margin-bottom:15px;
+background-color:#fff;
+border:none;
+}
+button:hover{
+background-color:tomato;
+color:#fff;
+font-weight:600;
+}
+#main{
+border 1px solid:red;
 background-color:teal;
-margin-left:550px; width:260px;height:500px;padding:15px;box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;}
-#display{color:red;
-font-weight:600;background-color:yellow;}
+margin-left:0px; 
+width:310px;
+height:100%;
+padding:15px;
+box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+#display{
+color:red;
+font-weight:600;
+background-color:yellow;
+text-align:left;
+width:90%;
+}
 #year{
 font-size:28px;
-text-align:center;	
-color:tomato;
-background-color:yellow;
-width:30%;
-margin-left:550px;
-padding-right:41px;
+text-align:right;	
+color:#fff;
+background-color:teal;
+margin-left:0px;
+padding-right:91px;
 font-weight:600;
+border-bottom:1px solid #fff;
 }
